@@ -1,0 +1,1 @@
+#same instructions as DOM instructions, but for JQuery
