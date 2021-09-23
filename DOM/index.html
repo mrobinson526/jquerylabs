@@ -11,13 +11,23 @@
 <body>
 <!-- Objective 2 -  make a button and textbox. when clicked, alert should display whats typed in textbox -->
     <form method="post">
-        <input type="text" id="textbox">
-         <input type="button" value="submit" onclick="namet()"/>
+        <input type="text" action="#" id="textbox">
+         <input type="submit" id="btnSubmit" value="Submit">
     </form>
 
-    <!-- Objective 3 -  create a div . Change color when hover. Return to original color on exit -->
-    <div>test class="testClass" id="testid"</div>
-    
+ <!-- Objective 3 -  create a div . Change color when hover. Return to original color on exit -->
+    <div class="testClass" id="testid">
+        <p>Test if div is working</p>
+    </div>
+    <!-- Objective 4 -  Paragraph . Change color of text when clicked. -->
+    <div class="textColor", id="textId">
+        <p id="textChg">What a beautiful morning. What a wonderful day!</p>
+        <button onclick="changeColor()">ColorChanger</button>
+    </div>
+<!-- Objective 6 Create a button to add list items of friend names to unordered list -->
+<button class="li-btn">Click to Add Friends Names</button>
+<ul style="list-style-type:disc"></ul>
+   
 
     <script src="script.js"></script>
 </body>
